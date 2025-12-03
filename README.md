@@ -92,7 +92,7 @@ The portion of the dataset used for the model to learn.Data is normally split in
 3.  **Deploy** – Use model in real applications.
     
 
-**5\. Math (Intuition Only)**
+**5\. Math (Intuition Only but is a must please)**
 =============================
 
 **Differential Calculus**
