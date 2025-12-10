@@ -38,3 +38,12 @@
 ## Simple Regression Example
 - Given input `A` with output `B`, estimate the output at a nearby point `A + x`.
 - Typical questions: “how much?” or “how many?” when the answer is a number (continuous).
+Overfitting happens with the training model relies on memory rather than generalization and accuracy.
+When the models is trained on random data or noisy data this results in Overfitting because it gets too specific Overfitting in short means that the model gets too specific for simple tasks and relies on memory which gives the wrong answer.
+Underfitting in ML often occurs due to simplistic models,poor feature engineering or excessive regularization that overly restricts teh models flexibility.
+
+IN short...underfitting happens when a model is too simple and stupid and it fails to capture the underlying patterns.
+symptoms include - > Low accuracy on training data and testing data or model is biased.
+    A good example here would be to show that prediction of loan approval through only 1 feature.
+overfitting. in short means that the model gets too specific and starts to memorize the data and fails to generalize the results
+symptoms include -> very high accuracy on training data, low on test
