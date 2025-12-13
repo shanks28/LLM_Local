@@ -2,6 +2,7 @@
 import numpy as np
 import pandas as pd
 
+
 def generate(n_rows=100_000, seed=42):
     rng = np.random.default_rng(seed)
     rows = []
@@ -37,6 +38,7 @@ def generate(n_rows=100_000, seed=42):
         })
 
     return pd.DataFrame(rows)
+
 
 if __name__ == "__main__":
     df = generate()

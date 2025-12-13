@@ -7,6 +7,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.impute import SimpleImputer
 
+
 def load_data(csv_path, target="loan_status"):
     df = pd.read_csv(csv_path)
 

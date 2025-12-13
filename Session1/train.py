@@ -5,6 +5,7 @@ from sklearn.metrics import classification_report
 from sklearn.tree import export_text
 from model import build_model
 
+
 def train_rf(X_train, y_train, X_test, y_test, preprocessor, out_dir):
     rf = build_model()
 
