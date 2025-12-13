@@ -11,4 +11,3 @@ def build_model() -> RandomForestClassifier:
         verbose=1,  # output progress
     )
     return model
-    
